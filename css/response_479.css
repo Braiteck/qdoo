@@ -6,6 +6,16 @@
 
 
 
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 16px;
+    }
+
+
+
     /*------------
         Header
     ------------*/
@@ -238,5 +248,22 @@
     footer .copyright
     {
         padding-right: 0;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 32px;
+    }
+
+
+    .modal_title
+    {
+        font-size: 28px;
+        line-height: 34px;
     }
 }

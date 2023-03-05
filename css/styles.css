@@ -279,6 +279,53 @@ button
 
 
 
+/*--------------
+    Fancybox
+--------------*/
+.fancybox__backdrop
+{
+    background: rgba(0, 0, 0, .6);
+}
+
+
+.fancybox__slide
+{
+    padding: 40px;
+}
+
+
+.fancybox__content > .carousel__button.is-close
+{
+    color: var(--text_color);
+
+    top: 20px;
+    right: 16px;
+
+    display: flex;
+
+    width: 24px;
+    height: 24px;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.modal.fancybox__content > .carousel__button.is-close svg
+{
+    display: block;
+
+    width: 24px;
+    height: 24px;
+
+    filter: none;
+    stroke: none;
+    stroke-width: 0;
+}
+
+
+
 /*------------
     Header
 ------------*/
@@ -1978,4 +2025,89 @@ footer .creator img
 footer .creator a:hover span
 {
     text-decoration: underline;
+}
+
+
+
+/*-----------
+    PopUp
+-----------*/
+.modal
+{
+    color: var(--text_color);
+
+    display: none;
+    visibility: visible !important;
+
+    width: 480px;
+    max-width: 100%;
+    padding: 48px 56px 32px 52px;
+
+    background: #fff;
+}
+
+
+.modal_title
+{
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 47px;
+}
+
+
+.modal .form
+{
+    margin-top: 22px;
+}
+
+
+.modal .form .title
+{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+
+    margin-bottom: 12px;
+}
+
+
+.modal .form .submit
+{
+    padding: 0;
+}
+
+.modal .form .submit_btn
+{
+    width: 100%;
+}
+
+
+.modal .form .exp
+{
+    width: 100%;
+    margin-top: 15px;
+}
+
+
+
+#get_offer_modal .interested
+{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+
+    margin-top: 16px;
+}
+
+
+#get_offer_modal .interested .val
+{
+    display: inline-block;
+
+    margin-top: 8px;
+    padding: 10px 15px 11px;
+
+    vertical-align: top;
+
+    background: #f3f9f0;
 }

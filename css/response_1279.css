@@ -569,4 +569,41 @@
     {
         width: calc(100% - 320px);
     }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 48px;
+    }
+
+
+    .modal_title
+    {
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+
+    .modal .form
+    {
+        margin-top: 24px;
+    }
+
+
+    .modal .form .title
+    {
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+
+
+    #get_offer_modal .interested
+    {
+        font-size: 15px;
+    }
 }

@@ -127,6 +127,38 @@ document.addEventListener('DOMContentLoaded', function () {
 			})
 		})
 	}
+
+
+	// Fancybox
+	Fancybox.defaults.autoFocus = false
+	Fancybox.defaults.trapFocus = false
+	Fancybox.defaults.dragToClose = false
+	Fancybox.defaults.placeFocusBack = false
+	Fancybox.defaults.l10n = {
+		CLOSE: "Закрыть",
+		NEXT: "Следующий",
+		PREV: "Предыдущий",
+		MODAL: "Вы можете закрыть это модальное окно нажав клавишу ESC"
+	}
+
+	Fancybox.defaults.template = {
+		closeButton: '<svg><use xlink:href="images/sprite.svg#ic_close"></use></svg>',
+		spinner: '<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="25 25 50 50" tabindex="-1"><circle cx="50" cy="50" r="20"/></svg>',
+		main: null
+	}
+
+
+	// Всплывающие окна
+	$('.we_work_with .get_offer form').submit(function(e) {
+		e.preventDefault()
+
+		Fancybox.close()
+
+		Fancybox.show([{
+			src: '#get_offer_modal',
+			type: 'inline'
+		}])
+	})
 })
 
 
