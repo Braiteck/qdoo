@@ -1,0 +1,242 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo img
+    {
+        width: 120px;
+    }
+
+
+    header .email
+    {
+        font-size: 14px;
+    }
+
+    header .email .icon
+    {
+        top: 0;
+
+        width: 20px;
+        height: 20px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .title2
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns > *
+    {
+        width: calc(100% - var(--form_columns_offset));
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        margin-bottom: -8px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 36px;
+    }
+
+
+    .first_section .img
+    {
+        max-width: 90%;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .row
+    {
+        --services_count: 1;
+    }
+
+    .services .row > *
+    {
+        width: 100%;
+    }
+
+
+    .services .service
+    {
+        padding: 20px 24px 24px 0;
+    }
+
+
+    .services .service .name
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+    .services .service .desc
+    {
+        width: 100%;
+    }
+
+
+
+    /*--------------
+        Benefits
+    --------------*/
+    .benefits .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .benefits .row
+    {
+        margin-bottom: -24px;
+        margin-left: 0;
+    }
+
+    .benefits .row > *
+    {
+        width: 100%;
+        margin-bottom: 24px;
+        margin-left: 0;
+    }
+
+
+    .benefits .item
+    {
+        padding: 24px;
+    }
+
+
+    .benefits .item .name
+    {
+        min-height: 0;
+    }
+
+    .benefits .item .name br
+    {
+        display: none;
+    }
+
+
+
+    /*------------------
+        We work with
+    ------------------*/
+    .we_work_with .get_offer
+    {
+        padding: 28px;
+    }
+
+
+    .we_work_with .get_offer .title
+    {
+        font-size: 22px;
+    }
+
+
+    .we_work_with .get_offer .submit_btn
+    {
+        font-size: 16px;
+        line-height: 21px;;
+    }
+
+
+
+    .we_work_with .brands .item
+    {
+        padding: 22px;
+    }
+
+
+
+    /*-------------------
+        What we offer
+    -------------------*/
+    .what_we_offer .item .data
+    {
+        width: 100%;
+        padding: 24px;
+
+        order: 2;
+    }
+
+
+    .what_we_offer .item .thumb
+    {
+        width: 100%;
+        min-height: 0;
+        padding-bottom: 75%;
+    }
+
+
+
+    /*---------------
+        Fast dev.
+    ---------------*/
+    .fast_dev
+    {
+        margin-bottom: -112px;
+        padding-top: 52px;
+        padding-bottom: 180px;
+    }
+
+
+    .fast_dev .item .name
+    {
+        min-height: 0;
+    }
+
+
+    .fast_dev .item .desc
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info
+    {
+        padding-top: 60px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .copyright
+    {
+        padding-right: 0;
+    }
+}

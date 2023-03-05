@@ -1,0 +1,267 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 34px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .title2
+    {
+        font-size: 26px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .data
+    {
+        width: 424px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 46px;
+    }
+
+
+    .first_section .img
+    {
+        max-width: calc(100% - 340px);
+        margin-top: 120px;
+        margin-right: -40px;
+        margin-left: -56px;
+    }
+
+
+    .first_section .bg
+    {
+        display: none;
+    }
+
+    .first_section .bg2
+    {
+        right: 0;
+
+        width: calc(100% + 120px);
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .row
+    {
+        width: calc(100% + 48px);
+        margin-right: -24px;
+    }
+
+
+    .services .service .russoft
+    {
+        display: none;
+    }
+
+
+    .services .service .name
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+
+    /*--------------
+        Benefits
+    --------------*/
+    .benefits .block_head
+    {
+        margin-bottom: 52px;
+    }
+
+
+    .benefits .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+
+    /*------------------
+        We work with
+    ------------------*/
+    .we_work_with:before
+    {
+        width: 52px;
+        height: 52px;
+
+        border-width: 26px;
+    }
+
+
+
+    .we_work_with .get_offer .title
+    {
+        font-size: 26px;
+    }
+
+
+    .we_work_with .get_offer .input
+    {
+        width: calc(100% - 260px);
+        height: 60px;
+    }
+
+    .we_work_with .get_offer .submit_btn
+    {
+        font-size: 17px;
+        line-height: 21px;
+
+        width: 260px;
+        height: 60px;
+    }
+
+
+    .we_work_with .get_offer .img
+    {
+        top: -20px;
+        right: -166px;
+
+        width: 452px;
+        height: 295px;
+    }
+
+
+
+    /*-------------------
+        What we offer
+    -------------------*/
+    .what_we_offer .row
+    {
+        margin-left: 0;
+    }
+
+    .what_we_offer .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*---------------
+        Fast dev.
+    ---------------*/
+    .fast_dev
+    {
+        margin-bottom: -120px;
+        padding: 72px 0 160px;
+    }
+
+
+    .fast_dev .block_head
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .fast_dev .block_head .title2
+    {
+        width: 100%;
+        margin-top: 12px;
+
+        text-align: left;
+    }
+
+    .fast_dev .block_head .title br,
+    .fast_dev .block_head .title2 br
+    {
+        display: none;
+    }
+
+
+    .fast_dev .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .fast_dev .bg
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info
+    {
+        padding-top: 92px;
+    }
+
+
+    .contacts_info .data
+    {
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+    }
+
+
+    .contacts_info .desc
+    {
+        font-size: 18px;
+        line-height: 24px;
+
+        margin-top: 40px;
+
+        order: 2;
+    }
+
+
+    .contacts_info .logo
+    {
+        display: none;
+    }
+
+
+    .contacts_info .location
+    {
+        font-size: 18px;
+        line-height: 22px;
+
+        margin-top: 0;
+    }
+
+
+    .contacts_info .phone
+    {
+        font-size: 24px;
+        line-height: 28px;
+
+        margin-top: 24px;
+    }
+
+
+    .contacts_info .form
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+}

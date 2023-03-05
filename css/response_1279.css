@@ -1,0 +1,572 @@
+@media print,
+(max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 36px;
+    }
+
+
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .cont,
+    .cont.same_indent
+    {
+        padding: 0 24px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 72px;
+    }
+
+
+    .swiper-button-prev,
+    .swiper-button-next
+    {
+        right: -4px;
+    }
+
+    .swiper-button-prev
+    {
+        top: -120px;
+    }
+
+    .swiper-button-next
+    {
+        top: 120px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 24px 0;
+    }
+
+
+    header .cont
+    {
+        padding: 0 24px;
+    }
+
+
+    header .menu
+    {
+        display: none;
+    }
+
+
+    header .email
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .block_head .title2
+    {
+        font-size: 28px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .input,
+    .form textarea
+    {
+        padding-right: 19px;
+        padding-left: 19px;
+    }
+
+
+    .form .nice-select .current
+    {
+        padding-left: 19px;
+    }
+
+    .form .nice-select .list .option
+    {
+        padding-right: 19px;
+        padding-left: 19px;
+    }
+
+
+    .form .file label
+    {
+        font-size: 16px;
+    }
+
+
+    .form .submit_btn
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+
+    .form .exp
+    {
+        font-size: 12px;
+        line-height: 16px;
+
+        width: calc(50% - 19px);
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        padding-top: 160px;
+        padding-bottom: 128px;
+    }
+
+
+    .first_section .data
+    {
+        width: 436px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 48px;
+    }
+
+
+    .first_section .desc
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        width: 344px;
+        margin-top: 32px;
+    }
+
+
+    .first_section .img
+    {
+        max-width: calc(100% - 436px);
+        margin-right: -40px;
+    }
+
+
+    .first_section .bg
+    {
+        right: -90px;
+
+        height: 504px;
+    }
+
+    .first_section .bg2
+    {
+        right: 212px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .services .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .services .service
+    {
+        padding: 20px 24px 24px 0;
+    }
+
+    .services .service:before
+    {
+        width: calc(100% + 24px);
+
+        clip-path: polygon(52px 0%, 100% 0, 100% calc(100% - 52px), calc(100% - 52px) 100%, 0 100%, 0 52px);
+    }
+
+
+    .services .service .thumb
+    {
+        width: 116px;
+        height: 116px;
+        margin-bottom: 24px;
+
+        clip-path: polygon(0 0, calc(100% - 24px) 0%, 100% 24px, 100% 100%, 24px 100%, 0 calc(100% - 24px));
+    }
+
+
+    .services .service .russoft
+    {
+        left: 136px;
+
+        height: 16px;
+    }
+
+
+    .services .service .name
+    {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+
+    .services .service .btn
+    {
+        font-size: 17px;
+
+        margin-top: 32px;
+    }
+
+    .services .service .btn .icon
+    {
+        width: 32px;
+        height: 14px;
+        margin-left: 16px;
+    }
+
+
+
+    /*--------------
+        Benefits
+    --------------*/
+    .benefits .block_head
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .benefits .item
+    {
+        padding: 20px 24px 24px;
+    }
+
+
+    .benefits .item .icon
+    {
+        width: 72px;
+        height: 72px;
+        padding: 20px;
+    }
+
+
+    .benefits .item .name
+    {
+        font-size: 19px;
+        line-height: 23px;
+
+        min-height: 46px;
+        padding-left: 48px;
+    }
+
+
+    .benefits .item .desc
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*------------------
+        We work with
+    ------------------*/
+    .we_work_with:before
+    {
+        width: 64px;
+        height: 64px;
+
+        border-width: 32px;
+    }
+
+
+
+    .we_work_with .get_offer
+    {
+        padding: 40px;
+    }
+
+
+    .we_work_with .get_offer .title
+    {
+        font-size: 28px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .we_work_with .get_offer .input
+    {
+        width: calc(100% - 400px);
+        height: 64px;
+    }
+
+    .we_work_with .get_offer .submit_btn
+    {
+        width: 400px;
+        height: 64px;
+    }
+
+
+    .we_work_with .get_offer .img
+    {
+        top: -21px;
+        right: -112px;
+
+        width: 472px;
+        height: 309px;
+    }
+
+
+
+    .we_work_with .brands
+    {
+        margin-top: 60px;
+    }
+
+
+    .we_work_with .brands .title
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .we_work_with .brands .swiper
+    {
+        height: 224px;
+    }
+
+
+    .we_work_with .brands .swiper-slide,
+    .we_work_with .brands .item
+    {
+        height: 100px;
+    }
+
+    .we_work_with .brands .item:before,
+    .we_work_with .brands .item:after
+    {
+        width: 32px;
+        height: 32px;
+
+        border-width: 16px;
+    }
+
+
+
+    /*-------------------
+        What we offer
+    -------------------*/
+    .what_we_offer .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .what_we_offer .row > *
+    {
+        width: calc(50% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+    .what_we_offer .row > *:nth-child(1)
+    {
+        clip-path: polygon(0 0, calc(100% - 60px) 0%, 100% 60px, 100% 100%, 60px 100%, 0 calc(100% - 60px));
+    }
+
+    .what_we_offer .row > *:nth-child(2)
+    {
+        clip-path: polygon(60px 0%, 100% 0, 100% calc(100% - 60px), calc(100% - 60px) 100%, 0 100%, 0 60px);
+    }
+
+
+    .what_we_offer .item .data
+    {
+        width: calc(100% - 172px);
+        padding: 40px;
+    }
+
+
+    .what_we_offer .item .name
+    {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+
+    .what_we_offer .item .thumb
+    {
+        width: 172px;
+        min-height: 232px;
+    }
+
+
+
+    /*---------------
+        Fast dev.
+    ---------------*/
+    .fast_dev
+    {
+        margin-bottom: -120px;
+        padding: 72px 0 140px;
+    }
+
+
+    .fast_dev .block_head
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .fast_dev .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .fast_dev .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .fast_dev .item
+    {
+        padding: 20px 24px 24px;
+    }
+
+
+    .fast_dev .item .icon
+    {
+        top: -12px;
+        left: -12px;
+
+        width: 80px;
+        height: 80px;
+        padding: 22px;
+    }
+
+    .fast_dev .item .icon:after
+    {
+        width: 20px;
+        height: 20px;
+
+        border-width: 10px;
+    }
+
+
+    .fast_dev .item .name
+    {
+        font-size: 19px;
+        line-height: 23px;
+
+        min-height: 69px;
+        padding-left: 68px;
+    }
+
+
+    .fast_dev .item .desc
+    {
+        margin-top: 24px;
+    }
+
+
+    .fast_dev .bg
+    {
+        width: auto;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info
+    {
+        padding-top: 128px;
+    }
+
+
+    .contacts_info .data
+    {
+        width: 280px;
+    }
+
+
+    .contacts_info .desc
+    {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+
+    .contacts_info .logo
+    {
+        margin-top: 40px;
+    }
+
+    .contacts_info .logo img
+    {
+        width: 188px;
+    }
+
+
+    .contacts_info .location
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+    .contacts_info .phone
+    {
+        font-size: 24px;
+        line-height: 28px;
+
+        margin-top: 24px;
+    }
+
+
+    .contacts_info .form
+    {
+        width: calc(100% - 320px);
+    }
+}

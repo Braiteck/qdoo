@@ -1,0 +1,447 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 32px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 60px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 20px 0;
+    }
+
+
+    header .logo img
+    {
+        width: 140px;
+    }
+
+
+    header .email
+    {
+        font-size: 15px;
+    }
+
+    header .email .icon
+    {
+        position: relative;
+        top: -1px;
+
+        width: 22px;
+        height: 22px;
+        margin-right: 12px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .title
+    {
+        line-height: calc(100% + 4px);
+    }
+
+
+    .block_head .title2
+    {
+        font-size: 24px;
+
+        width: 100%;
+        margin-top: 12px;
+
+        text-align: left;
+    }
+
+
+    .block_head .title br,
+    .block_head .title2 br
+    {
+        display: none;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .submit_btn
+    {
+        width: 100%;
+    }
+
+
+    .form .exp
+    {
+        font-size: 13px;
+        line-height: 17px;
+
+        width: 100%;
+        margin-top: 16px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        padding-top: 120px;
+    }
+
+
+    .first_section .data
+    {
+        width: 100%;
+
+        order: 2;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 42px;
+        line-height: calc(100% + 4px);
+    }
+
+
+    .first_section .desc
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        width: 100%;
+        margin-top: 28px;
+    }
+
+
+    .first_section .img
+    {
+        max-width: 75%;
+        margin-top: 0;
+        margin-right: auto;
+        margin-bottom: 12px;
+        margin-left: auto;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .row
+    {
+        margin-bottom: 0;
+
+        --services_count: 2;
+    }
+
+    .services .row > *
+    {
+        width: calc(50% - 24px);
+        margin-bottom: 0;
+    }
+
+
+    .services .service
+    {
+        padding: 20px 20px 24px 0;
+    }
+
+
+    .services .service .thumb
+    {
+        width: 104px;
+        height: 104px;
+        margin-bottom: 20px;
+
+        clip-path: polygon(0 0, calc(100% - 20px) 0%, 100% 20px, 100% 100%, 20px 100%, 0 calc(100% - 20px));
+    }
+
+
+    .services .service .name
+    {
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+
+    .services .service .btn
+    {
+        font-size: 16px;
+
+        margin-top: 24px;
+    }
+
+
+
+    /*--------------
+        Benefits
+    --------------*/
+    .benefits .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .benefits .row
+    {
+        margin-bottom: -12px;
+        margin-left: -12px;
+    }
+
+    .benefits .row > *
+    {
+        width: calc(50% - 12px);
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+
+    .benefits .item
+    {
+        padding: 20px;
+    }
+
+
+    .benefits .item .icon
+    {
+        position: relative;
+        top: 0;
+        left: 0;
+
+        margin-bottom: 16px;
+    }
+
+
+    .benefits .item .name
+    {
+        font-size: 18px;
+        line-height: 22px;
+
+        min-height: 44px;
+        padding-left: 0;
+    }
+
+
+    .benefits .item .desc
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*------------------
+        We work with
+    ------------------*/
+    .we_work_with:before
+    {
+        width: 40px;
+        height: 40px;
+
+        border-width: 20px;
+    }
+
+
+
+    .we_work_with .get_offer
+    {
+        padding: 32px;
+    }
+
+
+    .we_work_with .get_offer .title
+    {
+        font-size: 24px;
+    }
+
+
+    .we_work_with .get_offer .input
+    {
+        font-size: 16px;
+
+        width: 100%;
+        height: 56px;
+    }
+
+    .we_work_with .get_offer .submit_btn
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        width: 100%;
+        height: 56px;
+        margin-top: 12px;
+    }
+
+
+    .we_work_with .get_offer .img
+    {
+        display: none;
+    }
+
+
+
+    .we_work_with .brands .item
+    {
+        padding: 22px;
+    }
+
+
+
+    /*-------------------
+        What we offer
+    -------------------*/
+    .what_we_offer .row > *:nth-child(1)
+    {
+        clip-path: polygon(0 0, calc(100% - 40px) 0%, 100% 40px, 100% 100%, 40px 100%, 0 calc(100% - 40px));
+    }
+
+    .what_we_offer .row > *:nth-child(2)
+    {
+        clip-path: polygon(40px 0%, 100% 0, 100% calc(100% - 40px), calc(100% - 40px) 100%, 0 100%, 0 40px);
+    }
+
+
+    .what_we_offer .item .data
+    {
+        width: calc(100% - 160px);
+        padding: 28px;
+    }
+
+
+    .what_we_offer .item .name
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+    .what_we_offer .item .desc
+    {
+        margin-top: 20px;
+    }
+
+
+    .what_we_offer .item .thumb
+    {
+        width: 160px;
+        min-height: 200px;
+    }
+
+
+
+    /*---------------
+        Fast dev.
+    ---------------*/
+    .fast_dev
+    {
+        padding-top: 60px;
+    }
+
+
+    .fast_dev .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .fast_dev .row
+    {
+        margin-left: 0;
+    }
+
+    .fast_dev .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .fast_dev .item .name
+    {
+        font-size: 18px;
+        line-height: 22px;
+
+        min-height: 44px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info
+    {
+        padding-top: 80px;
+    }
+
+
+    .contacts_info .desc
+    {
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+
+    .contacts_info .location
+    {
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+
+    .contacts_info .phone
+    {
+        font-size: 23px;
+        line-height: 27px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .col
+    {
+        width: 100%;
+    }
+
+
+
+    footer .copyright
+    {
+        padding-right: 40px;
+    }
+
+
+
+    footer .privacy_policy_link
+    {
+        margin-top: 12px;
+    }
+
+
+
+    footer .creator
+    {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+}

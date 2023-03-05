@@ -1,0 +1,15 @@
+<svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="ic_arr_down">
+    <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 16" id="ic_arrow_hor">
+    <path d="M34.7071 8.70711C35.0976 8.31658 35.0976 7.68342 34.7071 7.29289L28.3431 0.928932C27.9526 0.538408 27.3195 0.538408 26.9289 0.928932C26.5384 1.31946 26.5384 1.95262 26.9289 2.34315L32.5858 8L26.9289 13.6569C26.5384 14.0474 26.5384 14.6805 26.9289 15.0711C27.3195 15.4616 27.9526 15.4616 28.3431 15.0711L34.7071 8.70711ZM0 9H34V7H0V9Z" fill="currentColor"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="ic_email">
+    <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+    <path d="M22 6L12 13L2 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 19" id="ic_file">
+    <path d="M16.9733 8.74789L9.69786 16.0233C8.80657 16.9146 7.59772 17.4153 6.33724 17.4153C5.07676 17.4153 3.8679 16.9146 2.97661 16.0233C2.08532 15.132 1.58459 13.9232 1.58459 12.6627C1.58459 11.4022 2.08532 10.1934 2.97661 9.30206L10.252 2.02664C10.8462 1.43245 11.6521 1.09863 12.4924 1.09863C13.3328 1.09863 14.1387 1.43245 14.7329 2.02664C15.3271 2.62084 15.6609 3.42674 15.6609 4.26706C15.6609 5.10738 15.3271 5.91328 14.7329 6.50748L7.44953 13.7829C7.15243 14.08 6.74948 14.2469 6.32932 14.2469C5.90916 14.2469 5.50621 14.08 5.20911 13.7829C4.91201 13.4858 4.74511 13.0828 4.74511 12.6627C4.74511 12.2425 4.91201 11.8396 5.20911 11.5425L11.9304 4.82914" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+  </symbol>
+</svg>
